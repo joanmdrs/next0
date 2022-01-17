@@ -8,4 +8,4 @@ const Principal = () => {
     )
 }
 
-export {Principal}
+export default Principal
