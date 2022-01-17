@@ -5,10 +5,9 @@ function Home () {
 
     return (
         <div>
-            <Header titulo="Minha primeira aplicação com o framework Next.js" />
+            <Header />
             <Principal />
 
-            <p> Testando </p>
         </div>
     )
 }
