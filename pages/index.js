@@ -1,5 +1,5 @@
-import { Header } from "./components/header"
-import { Principal } from "./components/principal"
+import { Header } from "../components/header.js"
+import { Principal } from "../components/principal.js"
 
 const Home = () => {
     return (
