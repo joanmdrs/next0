@@ -1,5 +1,5 @@
 import { Header } from "./header"
-import { Principal } from "./main"
+import { Principal } from "./principal"
 
 function Home () {
 
@@ -7,6 +7,8 @@ function Home () {
         <div>
             <Header titulo="Minha primeira aplicação com o framework Next.js" />
             <Principal />
+
+            <p> Testando </p>
         </div>
     )
 }
