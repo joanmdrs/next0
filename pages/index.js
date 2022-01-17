@@ -1,4 +1,4 @@
-import { Header } from "./header"
+import {Header} from "./header"
 import Principal from "./principal"
 const Home = () => {
     return (
