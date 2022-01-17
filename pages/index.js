@@ -1,6 +1,6 @@
-import Header from "./header"
+import { Header } from "./header"
 import Principal from "./principal"
-function Home () {
+const Home = () => {
     return (
         <div>
             <Header />
@@ -9,5 +9,6 @@ function Home () {
         </div>
     )
 }
+
 
 export default Home
