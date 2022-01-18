@@ -4,12 +4,15 @@ import { Principal } from "../components/principal.js"
 const Home = () => {
     return (
         <div>
-            <Header />
+            <Header titulo={"Minha primeira aplicação utilizando o framework Next.js"}/>
             <Principal />
             
         </div>
+
+        
     )
 }
 
-
 export default Home
+
+

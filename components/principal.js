@@ -2,10 +2,14 @@ const Principal = () => {
     return (
        
         <p>
-            O Next.js é um framework que foi desenvolvido pela Vercel para atuar no desenvolvido Web junto com o React.
+            Está página é fruto da aplicação dos conceitos aprendidos
+            na disciplina de Programação Web. 
         </p>
+        
        
     )
 }
+
+
 
 export { Principal }

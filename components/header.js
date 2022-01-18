@@ -1,6 +1,6 @@
-const Header = () => {
+const Header = ({titulo}) => {
     return (
-        <h1> Minha primeira aplicação utilizando Next.js </h1>
+        <h1> {titulo} </h1>
     )
 }
 
