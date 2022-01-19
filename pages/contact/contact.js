@@ -1,4 +1,4 @@
-import { RedesSociais } from "./social"
+import RedesSociais from "./social"
 
 const Contact = () => {
     return (
