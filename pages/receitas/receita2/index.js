@@ -1,5 +1,5 @@
 import Link from 'next/link'
-
+import Content from './home/home'
 export default function Home() {
     return (
 
@@ -8,6 +8,11 @@ export default function Home() {
 
                 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300&display=swap');
 
+                div {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                }
                 nav {
                     margin-top: 20px;
                     display: flex;
@@ -25,16 +30,23 @@ export default function Home() {
                 a:hover {
                     color: #0489B1;
                 }
+                .principal-page{
+                    margin-top: 50px;
+                    padding: 30px 30px 20px 30px;
+                    border-top: 1px solid #000000;
+                    font-style: italic;
+                }
             `}
             </style>
             <nav>
-                <Link id='receita1' href='/receitas/receita1'><a>Receita 1</a></Link>
-                <Link id='receita2' href='/receitas/receita2'><a>Receita 2</a></Link>
-                <Link id='receita3' href='/receitas/receita3/bagdad'><a>Receita 3</a></Link>
+                <Link id='home' href='/receitas/receita2'><a>Home</a></Link>
+                <Link id='about' href='/receitas/receita2/about/about'><a>About</a></Link>
+                <Link id='contact' href='/receitas/receita2/contact/contact'><a>Contact</a></Link>
             </nav>
             
-            <Header title='Aplicação desenvolvida com Next.js' />
+            <Header title='Receita 2' />
             <Content />
+            <Link href='/'><a className='principal-page'>Página Principal</a></Link>
         </div>
     )
 }
@@ -55,39 +67,6 @@ export function Header({title}) {
 
             </style>
             <h2>{title}</h2>
-        </div>
-    )
-}
-
-export function Content() {
-    return (
-        <div className="paragrafh">
-            <style jsx>{`
-
-                .paragrafh {
-                    border-top-left-radius: 15px;
-                    background-image: linear-gradient( 64.5deg,  rgba(245,116,185,1) 14.7%, rgba(89,97,223,1) 88.7% );
-                    margin-right: 200px;
-                    margin-left: 200px;
-                    padding: 10px;
-                }
-
-                p{
-                    font-size: 18px;
-                    font-weight: 400;
-                    text-align: center;
-                    font-family: 'Lato', 'sans-serif';
-                    color: #F2F2F2;
-                }
-            `
-
-            }
-
-            </style>
-            <p> 
-                Esta aplicação exibe a resolução dos exercícios da disciplina Programação Web, 
-                os quais possuem o formato de uma receita.  
-            </p>
         </div>
     )
 }

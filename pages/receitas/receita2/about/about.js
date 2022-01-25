@@ -58,7 +58,7 @@ export default function About(){
                 </p>
 
             </div>
-            <Link href='/'><a>Voltar ao Home</a></Link>
+            <Link href='/receitas/receita2'><a>Voltar ao Home</a></Link>
             
         </div>
     )

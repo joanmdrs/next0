@@ -24,8 +24,8 @@ export default function Content() {
 
             </style>
             <p> 
-                Esta aplicação é fruto da prática das atividades desenvolvidas ao longo  
-                da disciplina Programação Web. 
+                Esta aplicação é fruto do desenvolvimento dos exercícios práticos 
+                da Receita 2 da disciplina Programação Web. 
             </p>
         </div>
     )
