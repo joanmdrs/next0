@@ -1,5 +1,4 @@
 import Link from "next/link"
-import { Content } from "./components/teste"
 export default function Home() {
     return (
 
@@ -34,7 +33,6 @@ export default function Home() {
             </style>
             
             <Header title='Receita 1' />
-            <Content />
             <Link href='/'><a>Página Principal</a></Link>
          
         </div>
