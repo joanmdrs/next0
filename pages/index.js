@@ -1,5 +1,6 @@
 import Link from 'next/link'
 
+
 export default function Home() {
     return (
 
@@ -31,6 +32,7 @@ export default function Home() {
                 <Link id='receita1' href='/receitas/receita1'><a>Receita 1</a></Link>
                 <Link id='receita2' href='/receitas/receita2'><a>Receita 2</a></Link>
                 <Link id='receita3' href='/receitas/receita3/bagdad'><a>Receita 3</a></Link>
+                <Link id='receita4' href='/receitas/receita4'><a>Receita 4</a></Link>
             </nav>
             
             <Header title='Aplicação desenvolvida com Next.js' />
