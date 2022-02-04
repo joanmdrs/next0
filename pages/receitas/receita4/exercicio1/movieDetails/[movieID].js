@@ -1,5 +1,6 @@
 import useSWR from 'swr'
 import { useRouter } from 'next/router'
+import Head from 'next/head'
 
 export default function MoviesDetails(){
 
@@ -46,7 +47,11 @@ export default function MoviesDetails(){
     
             `}
             </style>
-
+            
+            <Head>
+                <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"></meta>
+                <title>Testando</title>
+            </Head>
             <ul>
                 <h2>{data.Title}</h2>
                 <img width={200} src={data.Poster}></img>    
