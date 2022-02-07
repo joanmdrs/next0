@@ -11,7 +11,7 @@ export default function Movies3(){
         e.preventDefault()
 
         const keyword = document.getElementById('field-movie').value 
-        if (url === '') setUrl(`http://www.omdbapi.com/?apikey=a85a78d&s=${keyword}`)
+        if (url === '') setUrl(`https://www.omdbapi.com/?apikey=a85a78d&s=${keyword}`)
 
         else setUrl('')
 
