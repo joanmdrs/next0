@@ -19,7 +19,6 @@ export default function Movies2(){
         <div>
             <Head>
                 <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"></meta>
-                <title>Testando</title>
             </Head>
             <ul>
                 <style jsx>{`
