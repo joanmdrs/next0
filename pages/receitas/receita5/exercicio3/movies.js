@@ -39,7 +39,6 @@ export default function Movies3(){
 
 async function theFetcher(url) {
 
-    if (url === null || url === '') return {Search:''}
     const res = await fetch(url);
     const json = await res.json();
     return json;
