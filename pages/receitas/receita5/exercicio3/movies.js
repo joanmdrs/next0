@@ -1,7 +1,6 @@
 import useSWR from 'swr'
 import {useState} from 'react'
 import Link from 'next/link'
-import react from 'react'
 
 export default function Movies3(){
 
@@ -21,8 +20,9 @@ export default function Movies3(){
     return (
 
         <div>
-            <TheLink url={url} link={'http://www.omdbapi.com/?apikey=a85a78d&s=bagdad'} handler={onClickHandler}/>
-            <TheLink url={url} link={'http://www.omdbapi.com/?apikey=a85a78d&s=2012'} handler={onClickHandler} />
+
+            <TheLink url={url} link={'https://www.omdbapi.com/?apikey=a85a78d&s=bagdad'} handler={onClickHandler}/>
+            <TheLink url={url} link={'https://www.omdbapi.com/?apikey=a85a78d&s=2012'} handler={onClickHandler} />
             <TheMovies data={ error?{error:'Erro na pesquisa'}: data ? data: {Search:''} } show={url !== ''}/>
         </div>
 
