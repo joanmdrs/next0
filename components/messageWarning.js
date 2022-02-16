@@ -10,8 +10,10 @@ const Error = styled.div`
     max-width: 300px;
 `
 
-export default function MessageWarning({texto}) {
+const MessageWarning = ({texto}) => {
     return (
         <Error>{texto}</Error>
     )
 }
+
+export default MessageWarning;
