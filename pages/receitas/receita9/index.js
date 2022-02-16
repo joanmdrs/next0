@@ -35,8 +35,7 @@ export default function Receita9(){
         
             />
             <nav>
-                <Link href='/receitas/receita9/exercicio1/16870'><a>Exercício 1</a></Link>
-                <Link href='/receitas/receita9/exercicio2/16870'><a>Exercício 2</a></Link>
+                <Link href='/receitas/receita9/exercicio_1_2/16870'><a>Exercício 1 e 2</a></Link>
                 <Link href='/receitas/receita9/exercicio3/movies/tt0095801'><a>Exercício 3</a></Link>
                 <Link href='/receitas/receita9/exercicio4/xxxccc'><a>Exercício 4</a></Link>
                 <Link href='/'><a>Página principal</a></Link>
