@@ -1,7 +1,14 @@
+import { useRouter } from 'next/router'
+
+
 export default function TheAnimes({data}){
 
    
-    if(data === undefined) return <div>Carregando...</div>
+    const router = useRouter()
+
+    if (router.isFallback) {
+      return <div>Carregando...</div>
+    }
 
 
     const title = data.data.title

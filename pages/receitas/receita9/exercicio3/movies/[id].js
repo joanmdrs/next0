@@ -57,7 +57,6 @@ export async function getStaticPaths(){
 
 export async function getStaticProps({ params }) {
 
-    console.log(params)
     const res = await fetch(`https://www.omdbapi.com/?apikey=a85a78d&i=${params.id}`)
 
     const data = await res.json();
