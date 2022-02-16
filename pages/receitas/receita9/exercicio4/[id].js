@@ -4,12 +4,7 @@ export default function TheMovie({data}){
 
     if(data === undefined) return <div>Carregando ...</div>
 
-    if(data.Response === 'False'){
-        return ( 
-            <MessageWarning texto={"Não há o recurso solicitado no sistema."} /> 
-        )
-
-        }
+    if(data.Response === 'False') return <div>"Não há o recurso solicitado no sistema."</div>
     console.log("data: ", data)
     
     return (
