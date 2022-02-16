@@ -35,6 +35,8 @@ export default function Home() {
                 <Link id='receita4' href='/receitas/receita4'><a>Receita 4</a></Link>
                 <Link id='receita5' href='/receitas/receita5'><a>Receita 5</a></Link>
                 <Link id='receita6' href='/receitas/receita6'><a>Receita 6</a></Link>
+                <Link id='receita9' href='/receitas/receita9'><a>Receita 9</a></Link>
+
             </nav>
             
             <Header title='Aplicação desenvolvida com Next.js' />
